@@ -1,4 +1,4 @@
-
+@include('navbar')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,7 +27,9 @@
         }
     </style>
 </head>
+
 <body>
+<div class="main-content">
     <h1>Lista de Itens Mais Consumidos</h1>
     <table>
         <thead>

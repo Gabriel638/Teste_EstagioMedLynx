@@ -1,3 +1,4 @@
+@include('navbar')
 
 <!DOCTYPE html>
 <html lang="en">
@@ -28,6 +29,7 @@
     </style>
 </head>
 <body>
+<div class="main-content">
     <h1>Lista de Atendimentos</h1>
     <table>
         <thead>
@@ -48,5 +50,6 @@
             @endforeach
         </tbody>
     </table>
+    </div>
 </body>
 </html>

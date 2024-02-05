@@ -1,3 +1,4 @@
+@include('navbar')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,6 +28,7 @@
     </style>
 </head>
 <body>
+<div class="main-content">
     <h1>Lista de Pessoas</h1>
     <table>
         <thead>

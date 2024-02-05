@@ -129,7 +129,6 @@ class MedlynxController extends Controller
             if ($item['id_item'] == $idItem) {
                 return [
                     'descricao' => $item['descricao'],
-                    // Adicione outros detalhes conforme necessário
                 ];
             }
         }
@@ -144,6 +143,16 @@ class MedlynxController extends Controller
         return view('consumos', ['consumos' => $consumos]);
     }
 
+    public function viewCriarAtendimento()
+    {
+        $itensp = $this->getItensFromApi();
+
+        return view('criar-atendimento', [
+            'itensp' => $itensp,
+            'apicriar' => 'https://comercial.medlynx.com.br/api_devtests2024_1/api/atendimentos/new',
+        ]);
+
+    }
 
 
 }
