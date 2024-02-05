@@ -10,7 +10,10 @@
 
 1. Tenha o **PHP** instalado. Caso não tenha instale<a href=https://www.php.net> aqui</a>.
 2. Tenha **GIT** instalado, para poder clonar o projeto. Caso não tenha instale<a href= https://git-scm.com/downloads> aqui</a>
-3. Abra o **GIT BASH** e clone o projeto digitando: ``` git clone https://github.com/Gabriel638/Teste_EstagioMedLynx.git ```
+3. Abra o **GIT BASH** e clone o projeto digitando:```git clone https://github.com/Gabriel638/Teste_EstagioMedLynx.git```
+4. Comando para instalar as dependências e iniciar o servidor usando o Artisan: ```composer install``` ```php artisan serve```
+5. Abra o navegador no local que ele indicar após o ```php artisan serve```, geralmente é: ```http://127.0.0.1:8000```
+6. O projeto já está rodando !
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 <p align="center">
