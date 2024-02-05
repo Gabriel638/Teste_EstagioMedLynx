@@ -8,7 +8,9 @@
 
 ## Rodando o Projeto
 
-1. Tenha o **PHP** instalado na máquina. Caso não tenha instale<a href=https://www.php.net> aqui</a>.
+1. Tenha o **PHP** instalado. Caso não tenha instale<a href=https://www.php.net> aqui</a>.
+2. Tenha **GIT** instalado, para poder clonar o projeto. Caso não tenha instale<a href= https://git-scm.com/downloads> aqui</a>
+3. Abra o **GIT BASH** e clone o projeto. git clone: https://github.com/Gabriel638/Teste_EstagioMedLynx
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 <p align="center">
